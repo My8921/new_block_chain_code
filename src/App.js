@@ -30,6 +30,9 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/login" element={<Login />} />
               <Route path="/forget-password/" element={<ForgetPassword />} />
+              
+              <Route path="/INSIG" element={<UnderDevelopment  />} />
+              <Route path="/Ai_Platform" element={<UnderDevelopment  />} />
               <Route
                 path="/update-password/:token"
                 element={<UpdatePassword />}
